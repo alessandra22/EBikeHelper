@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.livelli.LivelliFragment">
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nLivelliTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:text="N° livelli"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_slideshow" />
+
+    <EditText
+        android:id="@+id/nLivelliET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/nLivelliTV"
+        app:layout_constraintStart_toEndOf="@+id/nLivelliTV"
+        app:layout_constraintTop_toTopOf="@+id/nLivelliTV"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <EditText
+        android:id="@+id/livello1ET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/livello2ET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/livello2TV"
+        app:layout_constraintStart_toStartOf="@+id/livello1ET"
+        app:layout_constraintTop_toTopOf="@+id/livello2TV" />
+
+    <EditText
+        android:id="@+id/livello3ET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/livello3TV"
+        app:layout_constraintStart_toStartOf="@+id/livello1ET"
+        app:layout_constraintTop_toTopOf="@+id/livello3TV" />
+
+    <EditText
+        android:id="@+id/livello4ET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/livello4TV"
+        app:layout_constraintStart_toStartOf="@+id/livello1ET"
+        app:layout_constraintTop_toTopOf="@+id/livello4TV" />
+
+    <EditText
+        android:id="@+id/livello5ET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/livello5TV"
+        app:layout_constraintStart_toStartOf="@+id/livello1ET"
+        app:layout_constraintTop_toTopOf="@+id/livello5TV" />
+
+    <EditText
+        android:id="@+id/livello6ET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/livello6TV"
+        app:layout_constraintStart_toStartOf="@+id/livello1ET"
+        app:layout_constraintTop_toTopOf="@+id/livello6TV" />
+
+    <Button
+        android:id="@+id/aggiornaBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGGIORNA"
+        app:backgroundTint="#009688"
+        app:layout_constraintBottom_toBottomOf="@+id/nLivelliET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nLivelliET"
+        app:layout_constraintTop_toTopOf="@+id/nLivelliET"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/livello1TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="Livello 1:"
+        app:layout_constraintStart_toStartOf="@+id/nLivelliTV"
+        app:layout_constraintTop_toBottomOf="@+id/nLivelliTV" />
+
+    <TextView
+        android:id="@+id/livello2TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Livello 2:"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/nLivelliTV"
+        app:layout_constraintTop_toBottomOf="@+id/livello1TV" />
+
+    <TextView
+        android:id="@+id/livello3TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Livello 3:"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/nLivelliTV"
+        app:layout_constraintTop_toBottomOf="@+id/livello2TV" />
+
+    <TextView
+        android:id="@+id/livello4TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Livello 4:"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/nLivelliTV"
+        app:layout_constraintTop_toBottomOf="@+id/livello3TV" />
+
+    <TextView
+        android:id="@+id/livello5TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Livello 5:"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/nLivelliTV"
+        app:layout_constraintTop_toBottomOf="@+id/livello4TV" />
+
+    <TextView
+        android:id="@+id/livello6TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Livello 6:"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/nLivelliTV"
+        app:layout_constraintTop_toBottomOf="@+id/livello5TV" />
+
+    <Button
+        android:id="@+id/salvaLivelliBT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="24dp"
+        android:text="SALVA MODIFICHE"
+        app:backgroundTint="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/erroreLivelliTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="#F44336"
+        app:layout_constraintEnd_toEndOf="@+id/aggiornaBT"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/aggiornaBT"
+        app:layout_constraintTop_toBottomOf="@+id/aggiornaBT" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="Rapporto: "
+        app:layout_constraintStart_toEndOf="@+id/livello1TV"
+        app:layout_constraintTop_toTopOf="@+id/livello1TV" />
+
+    <TextView
+        android:id="@+id/debugg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

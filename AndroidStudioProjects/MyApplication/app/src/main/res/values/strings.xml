@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">E-Bike helper</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">E-Bike helper</string>
+    <string name="nav_header_subtitle">Modifica le tue informazioni</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name= "select_bici">
+        <item>--non presente--</item>
+        <item>Winora Y9 2019</item>
+    </string-array>
+
+    <string-array name= "select_cambio">
+        <item>Shimano 11 32</item>
+        <item>Shimano 11 40</item>
+        <item>Shimano 11 42</item>
+        <item>Shimano 11 46</item>
+        <item>Shimano 10 45</item>
+        <item>Shimano 10 51</item>
+        <item>Sram 10 42</item>
+        <item>Sram 10 46</item>
+        <item>Sram 10 52</item>
+    </string-array>
+
+    <string-array name= "select_livelli">
+        <item>personalizzati</item>
+        <item>0.5, 1.0, 1.9, 2.8</item>
+        <item>0.4, 1.0, 1.5, 3.0</item>
+        <item>0.5, 1.0, 1.5, 3.0</item>
+        <item>0.4, 1.0, 1.7, 3.0</item>
+        <item>0.5, 1.0, 1.7, 3.0</item>
+    </string-array>
+
+    <string-array name= "select_batteria">
+        <item>--non presente--</item>
+        <item>12Ah, 36V</item>
+        <item>13Ah, 36V</item>
+        <item>13.4Ah, 36V</item>
+        <item>14Ah, 36V</item>
+        <item>15Ah, 36V</item>
+        <item>18Ah, 36V</item>
+    </string-array>
+
+    <string-array name= "select_motore">
+        <item>--non presente--</item>
+        <item>yamahapwse</item>
+    </string-array>
+
+    <string-array name= "select_sforzo">
+        <item>Alto</item>
+        <item>Medio</item>
+        <item>Basso</item>
+    </string-array>
+
+    <string-array name= "select_ciclista">
+        <item>personalizzato</item>
+        <item>esordiente</item>
+        <item>abituale</item>
+        <item>allenato</item>
+        <item>molto allenato</item>
+    </string-array>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_ciclista">Ciclista</string>
+    <string name="menu_livelli">Livelli di assistenza</string>
+    <string name="error_fields_empty">Riempi tutti i campi!</string>
+    <string name="error_bike_not_selected">Bici non selezionata</string>
+    <string name="error_biker">Ciclista non salvato correttamente</string>
+    <string name="error_bike">Bici non salvata correttamente</string>
+    <string name="inserire_indirizzi_coordinate">Inserire qui gli indirizzi o le coordinate\n(es formato: 43.1234567, 13.1234567)</string>
+    <string name="errore_destinazione">La destinazione ha un errore</string>
+    <string name="errore_partenza">La partenza ha un errore</string>
+    <string name="no_errors">Nessun errore</string>
+    <string name="biker_error">Errore nel biker</string>
+    <string name="bike_error">Errore nella bike</string>
+    <string name="numero_troppo_piccolo">Numero troppo piccolo</string>
+    <string name="numero_troppo_grande">Numero troppo grande</string>
+    <string name="number_not_valid">Inserire numero valido</string>
+</resources>
